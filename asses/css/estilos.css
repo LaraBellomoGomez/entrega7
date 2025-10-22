@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    background-color: #E8EBE4;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+}
+
+.inicio {
+    display: flex;
+
+}
+
+.maria {
+    display: flex;
+    border: 1px solid #E8EBE4;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    width: 270px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.maria1 {
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.maria1 h1 {
+    font-size: 18px;
+}
+
+.maria1 p {
+    font-size: 14px;
+    color: #BEC1BB;
+
+}
+
+.maria img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.iconos {
+    font-size: 18px;
+    padding-top: 25px;
+    padding: 5px;
+    color: #BEC1BB;
+}
+
+
+.contenedor {
+    display: flex;
+    background-color: #fff;
+    width: 270px;
+    height: 150px;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boton {
+    display: flex;
+    color: #fff;
+    background-color: #A491D2;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.contactos {
+    display: flex;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid #E8EBE4;
+    background-color: #fff;
+    width: 270px;
+    height: 70px;
+}
+
+
+
+.texto {
+    justify-items: start;
+    align-items: center;
+    padding-top: 14px;
+
+}
+
+.contactos h1 {
+    font-size: 18px;
+}
+
+.contacos p {
+    font-size: 10px;
+}
+
+.contactos img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: calc(100% - 270px);
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    justify-items: center;
+
+}
+
+.principal img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+
+.principal h1 {
+    font-size: 45px;
+    padding: 5px;
+
+}
+
+.principal p {
+    font-size: 16px;
+}
